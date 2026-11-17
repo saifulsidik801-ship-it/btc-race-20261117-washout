@@ -1,12 +1,20 @@
-# Washout Reversion — BTC 24h Race Bot
+# btc-race-20261117-washout
 
-![competition](https://make.fun/badge/btc-race-24h-20261117-0603.svg)
-![rank](https://make.fun/badge/btc-race-24h-20261117-0603/rank.svg)
-![reward](https://make.fun/badge/btc-race-24h-20261117-0603/reward.svg)
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/saifulsidik801-ship-it/btc-race-20261117-washout/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/saifulsidik801-ship-it/btc-race-20261117-washout/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
 
-Entry for **btc-race-24h-20261117-0603** — "Race a BTC trading bot live for 24
-hours" ($250 pot). Trades cbBTC vs USDC on Orca Whirlpool, 1-minute bars,
-$1,000 paper money, long only.
+Washout Reversion bot for make.fun btc-race-24h-20261117-0603 — "Race a BTC trading bot live for 24 hours" ($250 pot). Trades cbBTC vs USDC on Orca Whirlpool, 1-minute bars, $1,000 paper money, long only. It buys the completed washout (relative trigger, never a fitted price level) and holds the recovery to the close with a trailing stop.
+
+## Run it
+
+```sh
+python3 -P -s main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=59gqp20q&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
 
 ## Strategy (reconstructed from the last race's top 10)
 
